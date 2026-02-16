@@ -1,0 +1,23 @@
+{
+  "servers": [
+    {
+      "name": "Email MCP Server",
+      "id": "email-mcp",
+      "description": "Email MCP server for Silver Tier that handles drafting and sending emails via Gmail API",
+      "path": "./mcp_servers/email-mcp/index.js",
+      "port": 3000,
+      "capabilities": [
+        "draft",
+        "send (with approval)",
+        "list pending drafts",
+        "approve and send"
+      ],
+      "endpoints": {
+        "draft": "/draft",
+        "send": "/send",
+        "pendingDrafts": "/pending-drafts",
+        "approveAndSend": "/approve-and-send/:fileName"
+      }
+    }
+  ]
+}

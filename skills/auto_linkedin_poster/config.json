@@ -1,0 +1,24 @@
+{
+  "name": "Auto LinkedIn Poster",
+  "version": "1.0.0",
+  "description": "Automatically scans for sales and business leads and drafts LinkedIn posts",
+  "author": "Qwen Code",
+  "commands": [
+    {
+      "name": "process sales lead",
+      "description": "Scan Needs_Action for sales leads and create LinkedIn post drafts",
+      "usage": "@Auto LinkedIn Poster process sales lead"
+    }
+  ],
+  "triggers": [
+    "sales",
+    "client",
+    "project"
+  ],
+  "dependencies": [
+    "pyyaml"
+  ],
+  "files": [
+    "auto_linkedin_poster.py"
+  ]
+}

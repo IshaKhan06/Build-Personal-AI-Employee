@@ -1,0 +1,29 @@
+{
+  "name": "HITL Approval Handler",
+  "version": "1.0.0",
+  "description": "Handles human-in-the-loop approvals for sensitive actions like emails, posts, and payments",
+  "author": "Silver Tier Automation",
+  "commands": [
+    {
+      "name": "check",
+      "description": "Check for approved and rejected requests in Pending_Approval, Approved, and Rejected folders",
+      "usage": "@HITL Approval Handler check Pending_Approval"
+    },
+    {
+      "name": "monitor",
+      "description": "Run continuous monitoring for approvals and rejections",
+      "usage": "@HITL Approval Handler monitor 30"
+    }
+  ],
+  "triggers": [
+    "approval",
+    "rejected",
+    "pending"
+  ],
+  "dependencies": [
+    "pyyaml"
+  ],
+  "files": [
+    "hitl_approval_handler.py"
+  ]
+}
