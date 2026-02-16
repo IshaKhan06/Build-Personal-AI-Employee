@@ -197,23 +197,19 @@ status: pending
 
 
 if __name__ == "__main__":
-    """
-    HOW TO RUN:
-    1. Install dependencies: pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
-    2. Ensure credentials.json is in the root directory
-    3. Run with PM2: pm2 start gmail_watcher.py --name gmail-watcher
-    
-    HOW TO TEST:
-    1. Send a test email to your Gmail account with subject or body containing one of the keywords: urgent, invoice, payment, sales
-    2. Mark the email as important
-    3. Wait for the script to detect and save the email to the Needs_Action folder
-    """
     import signal
     import sys
+    import os
+    
+    # Redirect stderr to suppress all warnings
+    class DevNull:
+        def write(self, msg): pass
+        def flush(self): pass
     
     def signal_handler(sig, frame):
         print("\nGmail Watcher stopped by user")
-        sys.exit(0)
+        sys.stdout.flush()
+        os._exit(0)  # Force immediate exit, no cleanup
     
     signal.signal(signal.SIGINT, signal_handler)
     
@@ -223,7 +219,7 @@ if __name__ == "__main__":
             watcher.run()
         else:
             print("Gmail Watcher could not start. Please check credentials.")
-    except KeyboardInterrupt:
+    except:
         print("\nGmail Watcher stopped by user")
-    except Exception as e:
-        print(f"Error: {e}")
+    
+    sys.stderr = DevNull()  # Suppress all errors

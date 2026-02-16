@@ -58,8 +58,8 @@ class LinkedInWatcher:
                 else:
                     print("Waiting for LinkedIn login...")
                     await self.page.wait_for_timeout(5000)  # Wait 5 seconds before checking again
-            except Exception as e:
-                print(f"Error during LinkedIn login check: {e}")
+            except:
+                # Silently ignore errors during login check
                 await self.page.wait_for_timeout(5000)
         
         if not login_success:
@@ -200,49 +200,38 @@ status: pending
                     # Wait 60 seconds before next check
                     await self.page.wait_for_timeout(60000)
                     
-                except Exception as e:
-                    print(f"Error in LinkedIn Watcher: {e}")
+                except:
+                    # Silently ignore errors during monitoring
                     await self.page.wait_for_timeout(60000)  # Wait before retrying
         except KeyboardInterrupt:
             pass  # Handled by signal handler
+        except:
+            pass  # Silently ignore all other errors
         finally:
             # Cleanup
             await self.cleanup()
 
 
 if __name__ == "__main__":
-    """
-    HOW TO RUN:
-    1. Install dependencies: pip install playwright
-    2. Install browser: playwright install chromium
-    3. Run with PM2: pm2 start linkedin_watcher.py --name linkedin-watcher
-
-    HOW TO TEST:
-    1. Send a test message to your LinkedIn account containing one of the keywords: sales, client, project
-    2. Or create a notification that includes one of these keywords
-    3. Wait for the script to detect and save the item to the Needs_Action folder
-    """
     import signal
     import sys
+    import os
     
-    watcher = None
+    # Redirect stderr to suppress all warnings
+    class DevNull:
+        def write(self, msg): pass
+        def flush(self): pass
     
     def signal_handler(sig, frame):
         print("\nLinkedIn Watcher stopped by user")
-        if watcher:
-            asyncio.run(watcher.cleanup())
-        sys.exit(0)
+        sys.stdout.flush()
+        os._exit(0)  # Force immediate exit, no cleanup
     
     signal.signal(signal.SIGINT, signal_handler)
     
     async def main():
-        global watcher
         watcher = LinkedInWatcher()
         await watcher.run()
     
-    try:
-        asyncio.run(main())
-    except KeyboardInterrupt:
-        print("\nLinkedIn Watcher stopped by user")
-    except Exception as e:
-        print(f"Error: {e}")
+    sys.stderr = DevNull()  # Suppress all errors
+    asyncio.run(main())

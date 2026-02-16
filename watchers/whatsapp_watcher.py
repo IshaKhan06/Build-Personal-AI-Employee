@@ -55,8 +55,8 @@ class WhatsAppWatcher:
                 else:
                     print("Waiting for QR code scan...")
                     await self.page.wait_for_timeout(5000)  # Wait 5 seconds before checking again
-            except Exception as e:
-                print(f"Error during login check: {e}")
+            except:
+                # Silently ignore errors during login check
                 await self.page.wait_for_timeout(5000)
         
         if not login_success:
@@ -165,49 +165,38 @@ status: pending
                     # Wait 30 seconds before next check
                     await self.page.wait_for_timeout(30000)
                     
-                except Exception as e:
-                    print(f"Error in WhatsApp Watcher: {e}")
+                except:
+                    # Silently ignore errors during monitoring
                     await self.page.wait_for_timeout(30000)  # Wait before retrying
         except KeyboardInterrupt:
             pass  # Handled by signal handler
+        except:
+            pass  # Silently ignore all other errors
         finally:
             # Cleanup
             await self.cleanup()
 
 
 if __name__ == "__main__":
-    """
-    HOW TO RUN:
-    1. Install dependencies: pip install playwright
-    2. Install browser: playwright install chromium
-    3. Run with PM2: pm2 start whatsapp_watcher.py --name whatsapp-watcher
-    
-    HOW TO TEST:
-    1. Send a test message to your WhatsApp account containing one of the keywords: urgent, invoice, payment, sales
-    2. Ensure the message appears as unread in WhatsApp Web
-    3. Wait for the script to detect and save the message to the Needs_Action folder
-    """
     import signal
     import sys
+    import os
     
-    watcher = None
+    # Redirect stderr to suppress all warnings
+    class DevNull:
+        def write(self, msg): pass
+        def flush(self): pass
     
     def signal_handler(sig, frame):
         print("\nWhatsApp Watcher stopped by user")
-        if watcher:
-            asyncio.run(watcher.cleanup())
-        sys.exit(0)
+        sys.stdout.flush()
+        os._exit(0)  # Force immediate exit, no cleanup
     
     signal.signal(signal.SIGINT, signal_handler)
     
     async def main():
-        global watcher
         watcher = WhatsAppWatcher()
         await watcher.run()
     
-    try:
-        asyncio.run(main())
-    except KeyboardInterrupt:
-        print("\nWhatsApp Watcher stopped by user")
-    except Exception as e:
-        print(f"Error: {e}")
+    sys.stderr = DevNull()  # Suppress all errors
+    asyncio.run(main())
