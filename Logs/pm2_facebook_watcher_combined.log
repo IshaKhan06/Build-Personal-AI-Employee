@@ -1,0 +1,1205 @@
+2026-02-19T23:02:48: 
+2026-02-19T23:02:48: 
+2026-02-19T23:02:48: Close the browser window to stop the watcher.
+2026-02-19T23:02:50: 
+2026-02-19T23:02:50: Watcher error: 'charmap' codec can't encode characters in position 242-303: character maps to <undefined>
+2026-02-19T23:02:54: 
+2026-02-19T23:02:54: Starting Facebook Watcher...
+2026-02-19T23:02:54: Close the browser window to stop the watcher.
+2026-02-19T23:02:55: 
+2026-02-19T23:02:55: Watcher error: 'charmap' codec can't encode characters in position 242-303: character maps to <undefined>
+2026-02-19T23:03:00: 
+2026-02-19T23:03:00: Starting Facebook Watcher...
+2026-02-19T23:03:00: Close the browser window to stop the watcher.
+2026-02-19T23:03:01: 
+2026-02-19T23:03:01: Watcher error: 'charmap' codec can't encode characters in position 242-303: character maps to <undefined>
+2026-02-19T23:03:57: 
+2026-02-19T23:03:57: Starting Facebook Watcher...
+2026-02-19T23:03:57: Close the browser window to stop the watcher.
+2026-02-19T23:03:59: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:03:59: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:03:59: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:03:59: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:03:59: ║                                                            ║
+2026-02-19T23:03:59: ║     playwright install                                     ║
+2026-02-19T23:03:59: ║                                                            ║
+2026-02-19T23:03:59: ║ <3 Playwright Team                                         ║
+2026-02-19T23:03:59: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:03:59: 
+2026-02-19T23:03:59: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:03:59: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:03:59: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:03:59: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:03:59: ║                                                            ║
+2026-02-19T23:03:59: ║     playwright install                                     ║
+2026-02-19T23:03:59: ║                                                            ║
+2026-02-19T23:03:59: ║ <3 Playwright Team                                         ║
+2026-02-19T23:03:59: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:04:03: 
+2026-02-19T23:04:03: Starting Facebook Watcher...
+2026-02-19T23:04:03: Close the browser window to stop the watcher.
+2026-02-19T23:04:04: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:04:04: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:04:04: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:04:04: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:04:04: ║                                                            ║
+2026-02-19T23:04:04: ║     playwright install                                     ║
+2026-02-19T23:04:04: ║                                                            ║
+2026-02-19T23:04:04: ║ <3 Playwright Team                                         ║
+2026-02-19T23:04:04: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:04:04: 
+2026-02-19T23:04:04: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:04:04: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:04:04: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:04:04: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:04:04: ║                                                            ║
+2026-02-19T23:04:04: ║     playwright install                                     ║
+2026-02-19T23:04:04: ║                                                            ║
+2026-02-19T23:04:04: ║ <3 Playwright Team                                         ║
+2026-02-19T23:04:04: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:04:09: 
+2026-02-19T23:04:09: Starting Facebook Watcher...
+2026-02-19T23:04:09: Close the browser window to stop the watcher.
+2026-02-19T23:04:10: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:04:10: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:04:10: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:04:10: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:04:10: ║                                                            ║
+2026-02-19T23:04:10: ║     playwright install                                     ║
+2026-02-19T23:04:10: ║                                                            ║
+2026-02-19T23:04:10: ║ <3 Playwright Team                                         ║
+2026-02-19T23:04:10: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:04:10: 
+2026-02-19T23:04:10: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:04:10: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:04:10: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:04:10: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:04:10: ║                                                            ║
+2026-02-19T23:04:10: ║     playwright install                                     ║
+2026-02-19T23:04:10: ║                                                            ║
+2026-02-19T23:04:10: ║ <3 Playwright Team                                         ║
+2026-02-19T23:04:10: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:04:50: 
+2026-02-19T23:04:50: 
+2026-02-19T23:04:50: Close the browser window to stop the watcher.
+2026-02-19T23:04:50: 
+2026-02-19T23:04:52: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:04:52: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:04:52: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:04:52: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:04:52: ║                                                            ║
+2026-02-19T23:04:52: ║     playwright install                                     ║
+2026-02-19T23:04:52: ║                                                            ║
+2026-02-19T23:04:52: ║ <3 Playwright Team                                         ║
+2026-02-19T23:04:52: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:04:52: 
+2026-02-19T23:04:52: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:04:52: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:04:52: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:04:52: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:04:52: ║                                                            ║
+2026-02-19T23:04:52: ║     playwright install                                     ║
+2026-02-19T23:04:52: ║                                                            ║
+2026-02-19T23:04:52: ║ <3 Playwright Team                                         ║
+2026-02-19T23:04:52: 
+2026-02-19T23:04:56: 
+2026-02-19T23:04:56: Starting Facebook Watcher...
+2026-02-19T23:04:56: Close the browser window to stop the watcher.
+2026-02-19T23:04:58: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:04:58: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:04:58: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:04:58: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:04:58: ║                                                            ║
+2026-02-19T23:04:58: ║     playwright install                                     ║
+2026-02-19T23:04:58: ║                                                            ║
+2026-02-19T23:04:58: ║ <3 Playwright Team                                         ║
+2026-02-19T23:04:58: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:04:58: 
+2026-02-19T23:04:58: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:04:58: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:04:58: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:04:58: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:04:58: ║                                                            ║
+2026-02-19T23:04:58: ║     playwright install                                     ║
+2026-02-19T23:04:58: ║                                                            ║
+2026-02-19T23:04:58: ║ <3 Playwright Team                                         ║
+2026-02-19T23:04:58: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:05:02: 
+2026-02-19T23:05:02: Starting Facebook Watcher...
+2026-02-19T23:05:02: Close the browser window to stop the watcher.
+2026-02-19T23:05:03: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:05:03: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:05:03: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:05:03: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:05:03: ║                                                            ║
+2026-02-19T23:05:03: ║     playwright install                                     ║
+2026-02-19T23:05:03: ║                                                            ║
+2026-02-19T23:05:03: ║ <3 Playwright Team                                         ║
+2026-02-19T23:05:03: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:05:03: 
+2026-02-19T23:05:03: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:05:03: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:05:03: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:05:03: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:05:03: ║                                                            ║
+2026-02-19T23:05:03: ║     playwright install                                     ║
+2026-02-19T23:05:03: ║                                                            ║
+2026-02-19T23:05:03: ║ <3 Playwright Team                                         ║
+2026-02-19T23:05:03: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:08:09: 
+2026-02-19T23:08:09: Starting Facebook Watcher...
+2026-02-19T23:08:09: Close the browser window to stop the watcher.
+2026-02-19T23:08:10: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:08:10: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:08:10: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:08:10: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:08:10: ║                                                            ║
+2026-02-19T23:08:10: ║     playwright install                                     ║
+2026-02-19T23:08:10: ║                                                            ║
+2026-02-19T23:08:10: ║ <3 Playwright Team                                         ║
+2026-02-19T23:08:10: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:08:10: 
+2026-02-19T23:08:10: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:08:10: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:08:10: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:08:10: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:08:10: ║                                                            ║
+2026-02-19T23:08:10: ║     playwright install                                     ║
+2026-02-19T23:08:10: ║                                                            ║
+2026-02-19T23:08:10: ║ <3 Playwright Team                                         ║
+2026-02-19T23:08:10: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:08:15: 
+2026-02-19T23:08:15: Starting Facebook Watcher...
+2026-02-19T23:08:15: Close the browser window to stop the watcher.
+2026-02-19T23:08:16: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:08:16: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:08:16: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:08:16: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:08:16: ║                                                            ║
+2026-02-19T23:08:16: ║     playwright install                                     ║
+2026-02-19T23:08:16: ║                                                            ║
+2026-02-19T23:08:16: ║ <3 Playwright Team                                         ║
+2026-02-19T23:08:16: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:08:16: 
+2026-02-19T23:08:16: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:08:16: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:08:16: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:08:16: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:08:16: ║                                                            ║
+2026-02-19T23:08:16: ║     playwright install                                     ║
+2026-02-19T23:08:16: ║                                                            ║
+2026-02-19T23:08:16: ║ <3 Playwright Team                                         ║
+2026-02-19T23:08:16: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:08:20: 
+2026-02-19T23:08:20: Starting Facebook Watcher...
+2026-02-19T23:08:20: Close the browser window to stop the watcher.
+2026-02-19T23:08:21: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:08:21: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:08:21: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:08:21: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:08:21: ║                                                            ║
+2026-02-19T23:08:21: ║     playwright install                                     ║
+2026-02-19T23:08:21: ║                                                            ║
+2026-02-19T23:08:21: ║ <3 Playwright Team                                         ║
+2026-02-19T23:08:21: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:08:21: 
+2026-02-19T23:08:21: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:08:21: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:08:21: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:08:21: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:08:21: ║                                                            ║
+2026-02-19T23:08:21: ║     playwright install                                     ║
+2026-02-19T23:08:21: ║                                                            ║
+2026-02-19T23:08:21: ║ <3 Playwright Team                                         ║
+2026-02-19T23:08:21: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:08:26: 
+2026-02-19T23:08:26: Starting Facebook Watcher...
+2026-02-19T23:08:26: Close the browser window to stop the watcher.
+2026-02-19T23:08:27: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:08:27: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:08:27: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:08:27: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:08:27: ║                                                            ║
+2026-02-19T23:08:27: ║     playwright install                                     ║
+2026-02-19T23:08:27: ║                                                            ║
+2026-02-19T23:08:27: ║ <3 Playwright Team                                         ║
+2026-02-19T23:08:27: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:08:27: 
+2026-02-19T23:08:27: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:08:27: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:08:27: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:08:27: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:08:27: ║                                                            ║
+2026-02-19T23:08:27: ║     playwright install                                     ║
+2026-02-19T23:08:27: ║                                                            ║
+2026-02-19T23:08:27: ║ <3 Playwright Team                                         ║
+2026-02-19T23:08:27: 
+2026-02-19T23:08:32: 
+2026-02-19T23:08:32: Starting Facebook Watcher...
+2026-02-19T23:08:32: Close the browser window to stop the watcher.
+2026-02-19T23:08:33: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:08:33: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:08:33: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:08:33: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:08:33: ║                                                            ║
+2026-02-19T23:08:33: ║     playwright install                                     ║
+2026-02-19T23:08:33: ║                                                            ║
+2026-02-19T23:08:33: ║ <3 Playwright Team                                         ║
+2026-02-19T23:08:33: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:08:33: 
+2026-02-19T23:08:33: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:08:33: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:08:33: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:08:33: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:08:33: ║                                                            ║
+2026-02-19T23:08:33: ║     playwright install                                     ║
+2026-02-19T23:08:33: ║                                                            ║
+2026-02-19T23:08:33: ║ <3 Playwright Team                                         ║
+2026-02-19T23:08:33: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:09:15: 
+2026-02-19T23:09:15: Starting Facebook Watcher...
+2026-02-19T23:09:15: 
+2026-02-19T23:09:16: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:09:16: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:09:16: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:09:16: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:09:16: ║                                                            ║
+2026-02-19T23:09:16: ║     playwright install                                     ║
+2026-02-19T23:09:16: ║                                                            ║
+2026-02-19T23:09:16: ║ <3 Playwright Team                                         ║
+2026-02-19T23:09:16: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:09:16: 
+2026-02-19T23:09:16: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:09:16: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:09:16: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:09:16: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:09:16: ║                                                            ║
+2026-02-19T23:09:16: ║     playwright install                                     ║
+2026-02-19T23:09:16: ║                                                            ║
+2026-02-19T23:09:16: ║ <3 Playwright Team                                         ║
+2026-02-19T23:09:16: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:09:20: 
+2026-02-19T23:09:20: Starting Facebook Watcher...
+2026-02-19T23:09:20: Close the browser window to stop the watcher.
+2026-02-19T23:09:22: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:09:22: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:09:22: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:09:22: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:09:22: ║                                                            ║
+2026-02-19T23:09:22: ║     playwright install                                     ║
+2026-02-19T23:09:22: ║                                                            ║
+2026-02-19T23:09:22: ║ <3 Playwright Team                                         ║
+2026-02-19T23:09:22: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:09:22: 
+2026-02-19T23:09:22: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:09:22: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:09:22: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:09:22: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:09:22: ║                                                            ║
+2026-02-19T23:09:22: ║     playwright install                                     ║
+2026-02-19T23:09:22: ║                                                            ║
+2026-02-19T23:09:22: ║ <3 Playwright Team                                         ║
+2026-02-19T23:09:22: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:09:26: 
+2026-02-19T23:09:26: Starting Facebook Watcher...
+2026-02-19T23:09:26: Close the browser window to stop the watcher.
+2026-02-19T23:09:27: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:09:27: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:09:27: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:09:27: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:09:27: ║                                                            ║
+2026-02-19T23:09:27: ║     playwright install                                     ║
+2026-02-19T23:09:27: ║                                                            ║
+2026-02-19T23:09:27: ║ <3 Playwright Team                                         ║
+2026-02-19T23:09:27: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:09:27: 
+2026-02-19T23:09:27: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:09:27: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:09:27: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:09:27: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:09:27: ║                                                            ║
+2026-02-19T23:09:27: ║     playwright install                                     ║
+2026-02-19T23:09:27: ║                                                            ║
+2026-02-19T23:09:27: ║ <3 Playwright Team                                         ║
+2026-02-19T23:09:27: 
+2026-02-19T23:09:32: 
+2026-02-19T23:09:32: Starting Facebook Watcher...
+2026-02-19T23:09:32: Close the browser window to stop the watcher.
+2026-02-19T23:09:33: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:09:33: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:09:33: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:09:33: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:09:33: ║                                                            ║
+2026-02-19T23:09:33: ║     playwright install                                     ║
+2026-02-19T23:09:33: ║                                                            ║
+2026-02-19T23:09:33: ║ <3 Playwright Team                                         ║
+2026-02-19T23:09:33: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:09:33: 
+2026-02-19T23:09:33: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:09:33: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:09:33: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:09:33: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:09:33: ║                                                            ║
+2026-02-19T23:09:33: ║     playwright install                                     ║
+2026-02-19T23:09:33: ║                                                            ║
+2026-02-19T23:09:33: ║ <3 Playwright Team                                         ║
+2026-02-19T23:09:33: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:09:37: 
+2026-02-19T23:09:37: Starting Facebook Watcher...
+2026-02-19T23:09:37: Close the browser window to stop the watcher.
+2026-02-19T23:09:38: Facebook Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:09:38: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:09:38: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:09:38: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:09:38: ║                                                            ║
+2026-02-19T23:09:38: ║     playwright install                                     ║
+2026-02-19T23:09:38: ║                                                            ║
+2026-02-19T23:09:38: ║ <3 Playwright Team                                         ║
+2026-02-19T23:09:38: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:09:38: 
+2026-02-19T23:09:38: Watcher error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\USERS\PC\APPDATA\LOCAL\PROGRAMS\PYTHON\PYTHON314\Lib\site-packages\playwright\driver\package\.local-browsers\chromium-1208\chrome-win64\chrome.exe
+2026-02-19T23:09:38: ╔════════════════════════════════════════════════════════════╗
+2026-02-19T23:09:38: ║ Looks like Playwright was just installed or updated.       ║
+2026-02-19T23:09:38: ║ Please run the following command to download new browsers: ║
+2026-02-19T23:09:38: ║                                                            ║
+2026-02-19T23:09:38: ║     playwright install                                     ║
+2026-02-19T23:09:38: ║                                                            ║
+2026-02-19T23:09:38: ║ <3 Playwright Team                                         ║
+2026-02-19T23:09:38: ╚════════════════════════════════════════════════════════════╝
+2026-02-19T23:13:14: 
+2026-02-19T23:13:14: Starting Facebook Watcher...
+2026-02-19T23:13:14: Close the browser window to stop the watcher.
+2026-02-19T23:13:15: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:13:16: 
+2026-02-19T23:13:16: ==================================================
+2026-02-19T23:13:16: FACEBOOK MONITORING
+2026-02-19T23:13:16: ==================================================
+2026-02-19T23:13:16: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:13:16: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:13:18: Facebook logged in successfully!
+2026-02-19T23:13:18: 
+2026-02-19T23:13:18: Browser window closed. Stopping Facebook Watcher...
+2026-02-19T23:13:22: 
+2026-02-19T23:13:22: Starting Facebook Watcher...
+2026-02-19T23:13:22: Close the browser window to stop the watcher.
+2026-02-19T23:13:24: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:13:25: 
+2026-02-19T23:13:25: ==================================================
+2026-02-19T23:13:25: FACEBOOK MONITORING
+2026-02-19T23:13:25: 
+2026-02-19T23:13:25: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:13:25: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:13:26: Facebook logged in successfully!
+2026-02-19T23:13:26: 
+2026-02-19T23:13:26: Browser window closed. Stopping Facebook Watcher...
+2026-02-19T23:13:31: 
+2026-02-19T23:13:31: Starting Facebook Watcher...
+2026-02-19T23:13:31: Close the browser window to stop the watcher.
+2026-02-19T23:13:32: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:13:33: 
+2026-02-19T23:13:33: ==================================================
+2026-02-19T23:13:33: FACEBOOK MONITORING
+2026-02-19T23:13:33: ==================================================
+2026-02-19T23:13:33: 
+2026-02-19T23:13:33: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:13:34: Facebook logged in successfully!
+2026-02-19T23:13:34: 
+2026-02-19T23:13:34: Browser window closed. Stopping Facebook Watcher...
+2026-02-19T23:13:38: 
+2026-02-19T23:13:38: Starting Facebook Watcher...
+2026-02-19T23:13:38: Close the browser window to stop the watcher.
+2026-02-19T23:13:39: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:13:40: 
+2026-02-19T23:13:40: ==================================================
+2026-02-19T23:13:40: FACEBOOK MONITORING
+2026-02-19T23:13:40: ==================================================
+2026-02-19T23:13:40: 
+2026-02-19T23:13:40: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:13:41: Facebook logged in successfully!
+2026-02-19T23:13:41: 
+2026-02-19T23:13:41: Browser window closed. Stopping Facebook Watcher...
+2026-02-19T23:13:46: 
+2026-02-19T23:13:46: Starting Facebook Watcher...
+2026-02-19T23:13:46: Close the browser window to stop the watcher.
+2026-02-19T23:13:47: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:13:48: 
+2026-02-19T23:13:48: ==================================================
+2026-02-19T23:13:48: FACEBOOK MONITORING
+2026-02-19T23:13:48: ==================================================
+2026-02-19T23:13:48: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:13:48: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:13:49: Facebook logged in successfully!
+2026-02-19T23:13:49: 
+2026-02-19T23:13:49: 
+2026-02-19T23:14:28: 
+2026-02-19T23:14:28: Starting Facebook Watcher...
+2026-02-19T23:14:28: Close the browser window to stop the watcher.
+2026-02-19T23:14:29: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:14:30: 
+2026-02-19T23:14:30: ==================================================
+2026-02-19T23:14:30: FACEBOOK MONITORING
+2026-02-19T23:14:30: 
+2026-02-19T23:14:30: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:14:30: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:14:31: Facebook logged in successfully!
+2026-02-19T23:14:31: 
+2026-02-19T23:14:31: [23:14:31] Checking Facebook...
+2026-02-19T23:14:39:   Found 0 matching items
+2026-02-19T23:14:46: Error during monitoring: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:14:46: Facebook Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:14:46: 
+2026-02-19T23:14:46: Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:14:50: 
+2026-02-19T23:14:50: Starting Facebook Watcher...
+2026-02-19T23:14:50: Close the browser window to stop the watcher.
+2026-02-19T23:14:51: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:14:53: 
+2026-02-19T23:14:53: ==================================================
+2026-02-19T23:14:53: FACEBOOK MONITORING
+2026-02-19T23:14:53: ==================================================
+2026-02-19T23:14:53: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:14:53: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:14:54: Facebook logged in successfully!
+2026-02-19T23:14:54: 
+2026-02-19T23:14:54: [23:14:54] Checking Facebook...
+2026-02-19T23:15:01: Error checking Facebook posts: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:15:01:   Found 0 matching items
+2026-02-19T23:15:01: Error during monitoring: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:15:01: Facebook Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:15:01: 
+2026-02-19T23:15:01: Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:15:05: 
+2026-02-19T23:15:05: Starting Facebook Watcher...
+2026-02-19T23:15:05: Close the browser window to stop the watcher.
+2026-02-19T23:15:06: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:15:07: 
+2026-02-19T23:15:07: ==================================================
+2026-02-19T23:15:07: FACEBOOK MONITORING
+2026-02-19T23:15:07: 
+2026-02-19T23:15:07: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:15:07: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:15:08: Facebook logged in successfully!
+2026-02-19T23:15:08: 
+2026-02-19T23:15:08: [23:15:08] Checking Facebook...
+2026-02-19T23:15:16:   Found 0 matching items
+2026-02-19T23:15:57: 
+2026-02-19T23:15:57: Starting Facebook Watcher...
+2026-02-19T23:15:57: Close the browser window to stop the watcher.
+2026-02-19T23:15:58: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:15:59: 
+2026-02-19T23:15:59: ==================================================
+2026-02-19T23:15:59: FACEBOOK MONITORING
+2026-02-19T23:15:59: ==================================================
+2026-02-19T23:15:59: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:15:59: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:16:00: Facebook logged in successfully!
+2026-02-19T23:16:00: 
+2026-02-19T23:16:00: [23:16:00] Checking Facebook...
+2026-02-19T23:16:08:   Found 0 matching items
+2026-02-19T23:17:08: 
+2026-02-19T23:17:08: [23:17:08] Checking Facebook...
+2026-02-19T23:17:16:   Found 0 matching items
+2026-02-19T23:17:18: Error during monitoring: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:17:18: Facebook Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:17:18: 
+2026-02-19T23:17:18: Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:17:23: 
+2026-02-19T23:17:23: Starting Facebook Watcher...
+2026-02-19T23:17:23: Close the browser window to stop the watcher.
+2026-02-19T23:17:24: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:17:25: 
+2026-02-19T23:17:25: ==================================================
+2026-02-19T23:17:25: FACEBOOK MONITORING
+2026-02-19T23:17:25: ==================================================
+2026-02-19T23:17:25: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:17:25: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:17:26: Facebook logged in successfully!
+2026-02-19T23:17:26: 
+2026-02-19T23:17:26: [23:17:26] Checking Facebook...
+2026-02-19T23:17:28: Error checking Facebook messages: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:17:28: Error checking Facebook posts: Page.goto: Target page, context or browser has been closed
+2026-02-19T23:17:28:   Found 0 matching items
+2026-02-19T23:17:28: Error during monitoring: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:17:28: Facebook Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:17:28: 
+2026-02-19T23:17:28: 
+2026-02-19T23:17:33: 
+2026-02-19T23:17:33: Starting Facebook Watcher...
+2026-02-19T23:17:33: Close the browser window to stop the watcher.
+2026-02-19T23:17:34: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:17:35: 
+2026-02-19T23:17:35: ==================================================
+2026-02-19T23:17:35: FACEBOOK MONITORING
+2026-02-19T23:17:35: ==================================================
+2026-02-19T23:17:35: 
+2026-02-19T23:17:35: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:17:36: Facebook logged in successfully!
+2026-02-19T23:17:36: 
+2026-02-19T23:17:36: [23:17:36] Checking Facebook...
+2026-02-19T23:17:44:   Found 0 matching items
+2026-02-19T23:18:44: 
+2026-02-19T23:18:44: [23:18:44] Checking Facebook...
+2026-02-19T23:18:51:   Found 0 matching items
+2026-02-19T23:19:33: 
+2026-02-19T23:19:33: Starting Facebook Watcher...
+2026-02-19T23:19:33: Close the browser window to stop the watcher.
+2026-02-19T23:19:34: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:19:35: 
+2026-02-19T23:19:35: ==================================================
+2026-02-19T23:19:35: FACEBOOK MONITORING
+2026-02-19T23:19:35: ==================================================
+2026-02-19T23:19:35: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:19:35: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:19:36: Facebook logged in successfully!
+2026-02-19T23:19:36: 
+2026-02-19T23:19:36: [23:19:36] Checking Facebook...
+2026-02-19T23:19:40: Error checking Facebook messages: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:19:40: Error checking Facebook posts: Page.goto: Target page, context or browser has been closed
+2026-02-19T23:19:40:   Found 0 matching items
+2026-02-19T23:19:40: Error during monitoring: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:19:40: Facebook Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:19:40: 
+2026-02-19T23:19:40: Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:19:44: 
+2026-02-19T23:19:44: Starting Facebook Watcher...
+2026-02-19T23:19:44: Close the browser window to stop the watcher.
+2026-02-19T23:19:45: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:19:46: 
+2026-02-19T23:19:46: ==================================================
+2026-02-19T23:19:46: FACEBOOK MONITORING
+2026-02-19T23:19:46: ==================================================
+2026-02-19T23:19:46: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:19:46: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:19:47: Facebook logged in successfully!
+2026-02-19T23:19:47: 
+2026-02-19T23:19:47: [23:19:47] Checking Facebook...
+2026-02-19T23:21:28: 
+2026-02-19T23:21:28: Starting Facebook Watcher...
+2026-02-19T23:21:28: Press Ctrl+C to stop the watcher.
+2026-02-19T23:21:29: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:21:30: 
+2026-02-19T23:21:30: ==================================================
+2026-02-19T23:21:30: FACEBOOK MONITORING
+2026-02-19T23:21:30: 
+2026-02-19T23:21:30: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:21:30: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:21:31: Facebook logged in successfully!
+2026-02-19T23:21:31: 
+2026-02-19T23:21:31: [23:21:31] Checking Facebook...
+2026-02-19T23:21:38:   Found 0 matching items
+2026-02-19T23:22:15: Error during monitoring: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:22:15: Facebook Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:22:15: 
+2026-02-19T23:22:15: Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:47:29: 
+2026-02-19T23:47:29: Starting Facebook Watcher...
+2026-02-19T23:47:29: Press Ctrl+C to stop the watcher.
+2026-02-19T23:47:30: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:47:32: 
+2026-02-19T23:47:32: ==================================================
+2026-02-19T23:47:32: FACEBOOK MONITORING
+2026-02-19T23:47:32: ==================================================
+2026-02-19T23:47:32: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:47:32: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:47:33: Facebook logged in successfully!
+2026-02-19T23:47:33: 
+2026-02-19T23:47:33: [23:47:33] Checking Facebook...
+2026-02-19T23:47:35: Error checking Facebook messages: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:47:35: Error checking Facebook posts: Page.goto: Target page, context or browser has been closed
+2026-02-19T23:47:35:   Found 0 matching items
+2026-02-19T23:47:35: Error during monitoring: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:47:35: Facebook Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:47:35: 
+2026-02-19T23:47:35: Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:47:40: 
+2026-02-19T23:47:40: Starting Facebook Watcher...
+2026-02-19T23:47:40: Press Ctrl+C to stop the watcher.
+2026-02-19T23:47:41: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:47:43: 
+2026-02-19T23:47:43: ==================================================
+2026-02-19T23:47:43: FACEBOOK MONITORING
+2026-02-19T23:47:43: ==================================================
+2026-02-19T23:47:43: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:47:43: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:47:43: Facebook logged in successfully!
+2026-02-19T23:47:43: 
+2026-02-19T23:47:43: [23:47:43] Checking Facebook...
+2026-02-19T23:47:45: Error checking Facebook messages: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:47:45: Error checking Facebook posts: Page.goto: Target page, context or browser has been closed
+2026-02-19T23:47:45:   Found 0 matching items
+2026-02-19T23:47:45: Error during monitoring: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:47:45: Facebook Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:47:45: 
+2026-02-19T23:47:45: Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:47:50: 
+2026-02-19T23:47:50: Starting Facebook Watcher...
+2026-02-19T23:47:50: Press Ctrl+C to stop the watcher.
+2026-02-19T23:47:51: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:47:52: 
+2026-02-19T23:47:52: ==================================================
+2026-02-19T23:47:52: FACEBOOK MONITORING
+2026-02-19T23:47:52: ==================================================
+2026-02-19T23:47:52: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:47:52: 
+2026-02-19T23:47:54: Facebook logged in successfully!
+2026-02-19T23:47:54: 
+2026-02-19T23:47:54: [23:47:54] Checking Facebook...
+2026-02-19T23:48:02:   Found 0 matching items
+2026-02-19T23:48:21: Error during monitoring: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:48:21: Facebook Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:48:21: 
+2026-02-19T23:48:21: Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:48:26: 
+2026-02-19T23:48:26: Starting Facebook Watcher...
+2026-02-19T23:48:26: Press Ctrl+C to stop the watcher.
+2026-02-19T23:48:28: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:48:29: 
+2026-02-19T23:48:29: ==================================================
+2026-02-19T23:48:29: FACEBOOK MONITORING
+2026-02-19T23:48:29: ==================================================
+2026-02-19T23:48:29: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:48:29: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:48:30: Facebook logged in successfully!
+2026-02-19T23:48:30: 
+2026-02-19T23:48:30: [23:48:30] Checking Facebook...
+2026-02-19T23:48:41:   Found 0 matching items
+2026-02-19T23:49:41: 
+2026-02-19T23:49:41: [23:49:41] Checking Facebook...
+2026-02-19T23:49:50:   Found 0 matching items
+2026-02-19T23:50:50: 
+2026-02-19T23:50:50: [23:50:50] Checking Facebook...
+2026-02-19T23:50:58:   Found 0 matching items
+2026-02-19T23:51:44: Error during monitoring: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:51:44: Facebook Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:51:44: 
+2026-02-19T23:51:44: Watcher error: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:51:52: 
+2026-02-19T23:51:52: Starting Facebook Watcher...
+2026-02-19T23:51:52: Close the browser window to stop the watcher.
+2026-02-19T23:51:54: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:51:55: 
+2026-02-19T23:51:55: ==================================================
+2026-02-19T23:51:55: FACEBOOK MONITORING
+2026-02-19T23:51:55: 
+2026-02-19T23:51:55: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:51:55: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:51:56: Facebook logged in successfully!
+2026-02-19T23:51:56: 
+2026-02-19T23:51:56: Browser window closed by user.
+2026-02-19T23:51:56: Stopping watcher...
+2026-02-19T23:52:00: 
+2026-02-19T23:52:00: Starting Facebook Watcher...
+2026-02-19T23:52:00: Close the browser window to stop the watcher.
+2026-02-19T23:52:02: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:52:03: 
+2026-02-19T23:52:03: ==================================================
+2026-02-19T23:52:03: FACEBOOK MONITORING
+2026-02-19T23:52:03: ==================================================
+2026-02-19T23:52:03: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:52:03: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:52:04: Facebook logged in successfully!
+2026-02-19T23:52:04: 
+2026-02-19T23:52:04: Browser window closed by user.
+2026-02-19T23:52:04: Stopping watcher...
+2026-02-19T23:52:10: 
+2026-02-19T23:52:10: Starting Facebook Watcher...
+2026-02-19T23:52:10: Close the browser window to stop the watcher.
+2026-02-19T23:52:12: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:52:13: 
+2026-02-19T23:52:13: ==================================================
+2026-02-19T23:52:13: FACEBOOK MONITORING
+2026-02-19T23:52:13: 
+2026-02-19T23:52:13: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:52:13: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:52:14: Facebook logged in successfully!
+2026-02-19T23:52:14: 
+2026-02-19T23:52:14: Browser window closed by user.
+2026-02-19T23:52:14: Stopping watcher...
+2026-02-19T23:52:18: 
+2026-02-19T23:52:18: Starting Facebook Watcher...
+2026-02-19T23:52:18: Close the browser window to stop the watcher.
+2026-02-19T23:52:20: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:52:21: 
+2026-02-19T23:52:21: ==================================================
+2026-02-19T23:52:21: FACEBOOK MONITORING
+2026-02-19T23:52:21: ==================================================
+2026-02-19T23:52:21: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:52:21: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:52:22: Facebook logged in successfully!
+2026-02-19T23:52:22: 
+2026-02-19T23:52:22: ✓ Browser window closed by user.
+2026-02-19T23:52:22: Stopping watcher gracefully...
+2026-02-19T23:52:26: 
+2026-02-19T23:52:26: Starting Facebook Watcher...
+2026-02-19T23:52:26: Close the browser window to stop the watcher.
+2026-02-19T23:52:28: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:52:29: 
+2026-02-19T23:52:29: ==================================================
+2026-02-19T23:52:29: FACEBOOK MONITORING
+2026-02-19T23:52:29: ==================================================
+2026-02-19T23:52:29: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:52:29: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:52:31: Facebook logged in successfully!
+2026-02-19T23:52:31: 
+2026-02-19T23:52:31: ✓ Browser window closed by user.
+2026-02-19T23:52:31: Stopping watcher gracefully...
+2026-02-19T23:52:36: 
+2026-02-19T23:52:36: Starting Facebook Watcher...
+2026-02-19T23:52:36: Close the browser window to stop the watcher.
+2026-02-19T23:52:38: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:52:39: 
+2026-02-19T23:52:39: ==================================================
+2026-02-19T23:52:39: FACEBOOK MONITORING
+2026-02-19T23:52:39: 
+2026-02-19T23:52:39: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:52:39: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:52:40: Facebook logged in successfully!
+2026-02-19T23:52:40: 
+2026-02-19T23:52:40: ✓ Browser window closed by user.
+2026-02-19T23:52:40: Stopping watcher gracefully...
+2026-02-19T23:52:45: 
+2026-02-19T23:52:45: Starting Facebook Watcher...
+2026-02-19T23:52:45: Close the browser window to stop the watcher.
+2026-02-19T23:52:46: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:52:47: 
+2026-02-19T23:52:47: ==================================================
+2026-02-19T23:52:47: FACEBOOK MONITORING
+2026-02-19T23:52:47: ==================================================
+2026-02-19T23:52:47: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:52:47: 
+2026-02-19T23:52:48: Facebook logged in successfully!
+2026-02-19T23:52:48: 
+2026-02-19T23:52:48: [23:52:48] Checking Facebook...
+2026-02-19T23:52:56:   Found 0 matching items
+2026-02-19T23:52:56: 
+2026-02-19T23:52:56: ✓ Browser window closed by user.
+2026-02-19T23:52:56: Stopping watcher gracefully...
+2026-02-19T23:53:01: 
+2026-02-19T23:53:01: Starting Facebook Watcher...
+2026-02-19T23:53:01: Close the browser window to stop the watcher.
+2026-02-19T23:53:02: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:53:03: 
+2026-02-19T23:53:03: ==================================================
+2026-02-19T23:53:03: FACEBOOK MONITORING
+2026-02-19T23:53:03: ==================================================
+2026-02-19T23:53:03: 
+2026-02-19T23:53:03: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:53:04: Facebook logged in successfully!
+2026-02-19T23:53:04: 
+2026-02-19T23:53:04: [23:53:04] Checking Facebook...
+2026-02-19T23:53:12:   Found 0 matching items
+2026-02-19T23:53:12: 
+2026-02-19T23:53:12: ✓ Browser window closed by user.
+2026-02-19T23:53:12: Stopping watcher gracefully...
+2026-02-19T23:53:17: 
+2026-02-19T23:53:17: Starting Facebook Watcher...
+2026-02-19T23:53:17: Close the browser window to stop the watcher.
+2026-02-19T23:53:18: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:53:20: 
+2026-02-19T23:53:20: ==================================================
+2026-02-19T23:53:20: FACEBOOK MONITORING
+2026-02-19T23:53:20: ==================================================
+2026-02-19T23:53:20: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:53:20: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:53:20: Facebook logged in successfully!
+2026-02-19T23:53:20: 
+2026-02-19T23:53:20: [23:53:20] Checking Facebook...
+2026-02-19T23:53:28:   Found 0 matching items
+2026-02-19T23:53:28: 
+2026-02-19T23:53:28: ✓ Browser window closed by user.
+2026-02-19T23:53:28: Stopping watcher gracefully...
+2026-02-19T23:53:33: 
+2026-02-19T23:53:33: Starting Facebook Watcher...
+2026-02-19T23:53:33: Close the browser window to stop the watcher.
+2026-02-19T23:53:34: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:53:36: 
+2026-02-19T23:53:36: ==================================================
+2026-02-19T23:53:36: FACEBOOK MONITORING
+2026-02-19T23:53:36: ==================================================
+2026-02-19T23:53:36: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:53:36: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:53:37: Facebook logged in successfully!
+2026-02-19T23:53:37: 
+2026-02-19T23:53:37: [23:53:37] Checking Facebook...
+2026-02-19T23:53:44:   Found 0 matching items
+2026-02-19T23:53:44: 
+2026-02-19T23:53:44: ✓ Browser window closed by user.
+2026-02-19T23:53:44: Stopping watcher gracefully...
+2026-02-19T23:53:49: 
+2026-02-19T23:53:49: Starting Facebook Watcher...
+2026-02-19T23:53:49: Close the browser window to stop the watcher.
+2026-02-19T23:53:50: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:53:52: 
+2026-02-19T23:53:52: ==================================================
+2026-02-19T23:53:52: FACEBOOK MONITORING
+2026-02-19T23:53:52: ==================================================
+2026-02-19T23:53:52: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:53:52: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:53:53: Facebook logged in successfully!
+2026-02-19T23:53:53: 
+2026-02-19T23:53:53: [23:53:53] Checking Facebook...
+2026-02-19T23:54:01:   Found 0 matching items
+2026-02-19T23:54:01: 
+2026-02-19T23:54:01: ✓ Browser window closed by user.
+2026-02-19T23:54:01: Stopping watcher gracefully...
+2026-02-19T23:54:05: 
+2026-02-19T23:54:05: Starting Facebook Watcher...
+2026-02-19T23:54:05: Close the browser window to stop the watcher.
+2026-02-19T23:54:06: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:54:08: 
+2026-02-19T23:54:08: ==================================================
+2026-02-19T23:54:08: FACEBOOK MONITORING
+2026-02-19T23:54:08: 
+2026-02-19T23:54:08: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:54:08: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:54:10: Facebook logged in successfully!
+2026-02-19T23:54:10: 
+2026-02-19T23:54:10: [23:54:10] Checking Facebook...
+2026-02-19T23:54:17:   Found 0 matching items
+2026-02-19T23:54:17: 
+2026-02-19T23:54:17: ✓ Browser window closed by user.
+2026-02-19T23:54:17: Stopping watcher gracefully...
+2026-02-19T23:54:22: 
+2026-02-19T23:54:22: Starting Facebook Watcher...
+2026-02-19T23:54:22: Close the browser window to stop the watcher.
+2026-02-19T23:54:23: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:54:24: 
+2026-02-19T23:54:24: ==================================================
+2026-02-19T23:54:24: FACEBOOK MONITORING
+2026-02-19T23:54:24: ==================================================
+2026-02-19T23:54:24: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:54:24: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:54:25: Facebook logged in successfully!
+2026-02-19T23:54:25: 
+2026-02-19T23:54:25: [23:54:25] Checking Facebook...
+2026-02-19T23:54:34:   Found 0 matching items
+2026-02-19T23:54:34: 
+2026-02-19T23:54:34: ✓ Browser window closed by user.
+2026-02-19T23:54:34: Stopping watcher gracefully...
+2026-02-19T23:54:39: 
+2026-02-19T23:54:39: Starting Facebook Watcher...
+2026-02-19T23:54:39: Close the browser window to stop the watcher.
+2026-02-19T23:54:40: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:54:41: 
+2026-02-19T23:54:41: ==================================================
+2026-02-19T23:54:41: FACEBOOK MONITORING
+2026-02-19T23:54:41: ==================================================
+2026-02-19T23:54:41: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:54:41: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:54:46: Facebook logged in successfully!
+2026-02-19T23:54:46: 
+2026-02-19T23:54:46: [23:54:46] Checking Facebook...
+2026-02-19T23:54:55:   Found 0 matching items
+2026-02-19T23:54:55: 
+2026-02-19T23:54:55: ✓ Browser window closed by user.
+2026-02-19T23:54:55: Stopping watcher gracefully...
+2026-02-19T23:55:01: 
+2026-02-19T23:55:01: Starting Facebook Watcher...
+2026-02-19T23:55:01: Close the browser window to stop the watcher.
+2026-02-19T23:55:02: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:55:03: 
+2026-02-19T23:55:03: ==================================================
+2026-02-19T23:55:03: FACEBOOK MONITORING
+2026-02-19T23:55:03: ==================================================
+2026-02-19T23:55:03: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:55:03: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:55:04: Facebook logged in successfully!
+2026-02-19T23:55:04: 
+2026-02-19T23:55:04: [23:55:04] Checking Facebook...
+2026-02-19T23:55:13:   Found 0 matching items
+2026-02-19T23:55:13: 
+2026-02-19T23:55:13: ✓ Browser window closed by user.
+2026-02-19T23:55:13: Stopping watcher gracefully...
+2026-02-19T23:55:19: 
+2026-02-19T23:55:19: Starting Facebook Watcher...
+2026-02-19T23:55:19: Close the browser window to stop the watcher.
+2026-02-19T23:56:07: 
+2026-02-19T23:56:07: Starting Facebook Watcher...
+2026-02-19T23:56:07: Close the browser window to stop the watcher.
+2026-02-19T23:56:09: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:56:10: 
+2026-02-19T23:56:10: ==================================================
+2026-02-19T23:56:10: FACEBOOK MONITORING
+2026-02-19T23:56:10: ==================================================
+2026-02-19T23:56:10: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:56:10: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:56:12: Facebook logged in successfully!
+2026-02-19T23:56:12: 
+2026-02-19T23:56:12: [23:56:12] Checking Facebook...
+2026-02-19T23:56:16: Error checking Facebook messages: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:56:16: Error checking Facebook posts: Page.goto: Target page, context or browser has been closed
+2026-02-19T23:56:16:   Found 0 matching items
+2026-02-19T23:56:16: 
+2026-02-19T23:56:16: ✓ Browser window closed by user.
+2026-02-19T23:56:16: Stopping watcher gracefully...
+2026-02-19T23:56:20: 
+2026-02-19T23:56:20: Starting Facebook Watcher...
+2026-02-19T23:56:20: Close the browser window to stop the watcher.
+2026-02-19T23:56:21: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:56:23: 
+2026-02-19T23:56:23: ==================================================
+2026-02-19T23:56:23: FACEBOOK MONITORING
+2026-02-19T23:56:23: ==================================================
+2026-02-19T23:56:23: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:56:23: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:56:24: Facebook logged in successfully!
+2026-02-19T23:56:24: 
+2026-02-19T23:56:24: [23:56:24] Checking Facebook...
+2026-02-19T23:56:32:   Found 0 matching items
+2026-02-19T23:56:32: 
+2026-02-19T23:56:32: ✓ Browser window closed by user.
+2026-02-19T23:56:32: Stopping watcher gracefully...
+2026-02-19T23:56:36: 
+2026-02-19T23:56:36: Starting Facebook Watcher...
+2026-02-19T23:56:36: Close the browser window to stop the watcher.
+2026-02-19T23:56:38: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:56:39: 
+2026-02-19T23:56:39: ==================================================
+2026-02-19T23:56:39: FACEBOOK MONITORING
+2026-02-19T23:56:39: ==================================================
+2026-02-19T23:56:39: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:56:39: 
+2026-02-19T23:56:39: Facebook logged in successfully!
+2026-02-19T23:56:39: 
+2026-02-19T23:56:39: [23:56:39] Checking Facebook...
+2026-02-19T23:56:47:   Found 0 matching items
+2026-02-19T23:56:47: 
+2026-02-19T23:56:47: ✓ Browser window closed by user.
+2026-02-19T23:56:47: Stopping watcher gracefully...
+2026-02-19T23:57:55: 
+2026-02-19T23:57:55: Starting Facebook Watcher...
+2026-02-19T23:57:55: Close the browser window to stop the watcher.
+2026-02-19T23:57:57: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:57:58: 
+2026-02-19T23:57:58: ==================================================
+2026-02-19T23:57:58: FACEBOOK MONITORING
+2026-02-19T23:57:58: ==================================================
+2026-02-19T23:57:58: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:57:58: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:57:59: Facebook logged in successfully!
+2026-02-19T23:57:59: 
+2026-02-19T23:57:59: [23:57:59] Checking Facebook...
+2026-02-19T23:58:02: Error checking Facebook messages: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-19T23:58:02: Error checking Facebook posts: Page.goto: Target page, context or browser has been closed
+2026-02-19T23:58:02: 
+2026-02-19T23:58:02: 
+2026-02-19T23:58:02: ✓ Browser window closed by user.
+2026-02-19T23:58:02: Stopping watcher gracefully...
+2026-02-19T23:58:07: 
+2026-02-19T23:58:07: Starting Facebook Watcher...
+2026-02-19T23:58:07: Close the browser window to stop the watcher.
+2026-02-19T23:58:08: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:58:09: 
+2026-02-19T23:58:09: ==================================================
+2026-02-19T23:58:09: FACEBOOK MONITORING
+2026-02-19T23:58:09: ==================================================
+2026-02-19T23:58:09: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:58:09: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:58:10: Facebook logged in successfully!
+2026-02-19T23:58:10: 
+2026-02-19T23:58:10: [23:58:10] Checking Facebook...
+2026-02-19T23:58:10: Error checking Facebook messages: Page.goto: net::ERR_ABORTED at https://www.facebook.com/messages/
+2026-02-19T23:58:10: Call log:
+2026-02-19T23:58:10:   - navigating to "https://www.facebook.com/messages/", waiting until "load"
+2026-02-19T23:58:10: 
+2026-02-19T23:58:10: Error checking Facebook posts: Page.goto: net::ERR_ABORTED at https://www.facebook.com/notifications/
+2026-02-19T23:58:10: Call log:
+2026-02-19T23:58:10:   - navigating to "https://www.facebook.com/notifications/", waiting until "load"
+2026-02-19T23:58:10: 
+2026-02-19T23:58:10:   Found 0 matching items
+2026-02-19T23:58:10: 
+2026-02-19T23:58:10: ✓ Browser window closed by user.
+2026-02-19T23:58:10: Stopping watcher gracefully...
+2026-02-19T23:58:15: 
+2026-02-19T23:58:15: Starting Facebook Watcher...
+2026-02-19T23:58:15: Close the browser window to stop the watcher.
+2026-02-19T23:58:16: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:58:17: 
+2026-02-19T23:58:17: ==================================================
+2026-02-19T23:58:17: FACEBOOK MONITORING
+2026-02-19T23:58:17: ==================================================
+2026-02-19T23:58:17: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:58:17: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:58:18: Facebook logged in successfully!
+2026-02-19T23:58:18: 
+2026-02-19T23:58:18: [23:58:18] Checking Facebook...
+2026-02-19T23:58:26:   Found 0 matching items
+2026-02-19T23:58:26: 
+2026-02-19T23:58:26: 
+2026-02-19T23:58:26: Stopping watcher gracefully...
+2026-02-19T23:58:31: 
+2026-02-19T23:58:31: Starting Facebook Watcher...
+2026-02-19T23:58:31: Close the browser window to stop the watcher.
+2026-02-19T23:58:32: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:58:33: 
+2026-02-19T23:58:33: ==================================================
+2026-02-19T23:58:33: FACEBOOK MONITORING
+2026-02-19T23:58:33: ==================================================
+2026-02-19T23:58:33: 
+2026-02-19T23:58:33: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:58:34: Facebook logged in successfully!
+2026-02-19T23:58:34: 
+2026-02-19T23:58:34: [23:58:34] Checking Facebook...
+2026-02-19T23:58:42:   Found 0 matching items
+2026-02-19T23:58:42: 
+2026-02-19T23:58:42: ✓ Browser window closed by user.
+2026-02-19T23:58:42: Stopping watcher gracefully...
+2026-02-19T23:58:47: 
+2026-02-19T23:58:47: Starting Facebook Watcher...
+2026-02-19T23:58:47: Close the browser window to stop the watcher.
+2026-02-19T23:58:48: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:58:49: 
+2026-02-19T23:58:49: ==================================================
+2026-02-19T23:58:49: FACEBOOK MONITORING
+2026-02-19T23:58:49: ==================================================
+2026-02-19T23:58:49: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:58:49: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:58:50: Facebook logged in successfully!
+2026-02-19T23:58:50: 
+2026-02-19T23:58:50: [23:58:50] Checking Facebook...
+2026-02-19T23:58:58:   Found 0 matching items
+2026-02-19T23:58:58: 
+2026-02-19T23:58:58: ✓ Browser window closed by user.
+2026-02-19T23:58:58: Stopping watcher gracefully...
+2026-02-19T23:59:02: 
+2026-02-19T23:59:02: Starting Facebook Watcher...
+2026-02-19T23:59:02: Close the browser window to stop the watcher.
+2026-02-19T23:59:03: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:59:05: 
+2026-02-19T23:59:05: ==================================================
+2026-02-19T23:59:05: FACEBOOK MONITORING
+2026-02-19T23:59:05: ==================================================
+2026-02-19T23:59:05: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:59:05: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:59:07: Facebook logged in successfully!
+2026-02-19T23:59:07: 
+2026-02-19T23:59:07: [23:59:07] Checking Facebook...
+2026-02-19T23:59:15:   Found 0 matching items
+2026-02-19T23:59:15: 
+2026-02-19T23:59:15: ✓ Browser window closed by user.
+2026-02-19T23:59:15: Stopping watcher gracefully...
+2026-02-19T23:59:19: 
+2026-02-19T23:59:19: Starting Facebook Watcher...
+2026-02-19T23:59:19: Close the browser window to stop the watcher.
+2026-02-19T23:59:21: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:59:22: 
+2026-02-19T23:59:22: ==================================================
+2026-02-19T23:59:22: FACEBOOK MONITORING
+2026-02-19T23:59:22: 
+2026-02-19T23:59:22: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:59:22: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:59:23: Facebook logged in successfully!
+2026-02-19T23:59:23: 
+2026-02-19T23:59:23: [23:59:23] Checking Facebook...
+2026-02-19T23:59:31:   Found 0 matching items
+2026-02-19T23:59:31: 
+2026-02-19T23:59:31: ✓ Browser window closed by user.
+2026-02-19T23:59:31: Stopping watcher gracefully...
+2026-02-19T23:59:35: 
+2026-02-19T23:59:35: Starting Facebook Watcher...
+2026-02-19T23:59:35: Close the browser window to stop the watcher.
+2026-02-19T23:59:37: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:59:38: 
+2026-02-19T23:59:38: ==================================================
+2026-02-19T23:59:38: FACEBOOK MONITORING
+2026-02-19T23:59:38: ==================================================
+2026-02-19T23:59:38: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:59:38: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:59:39: Facebook logged in successfully!
+2026-02-19T23:59:39: 
+2026-02-19T23:59:39: [23:59:39] Checking Facebook...
+2026-02-19T23:59:47:   Found 0 matching items
+2026-02-19T23:59:47: 
+2026-02-19T23:59:47: ✓ Browser window closed by user.
+2026-02-19T23:59:47: Stopping watcher gracefully...
+2026-02-19T23:59:52: 
+2026-02-19T23:59:52: Starting Facebook Watcher...
+2026-02-19T23:59:52: Close the browser window to stop the watcher.
+2026-02-19T23:59:54: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-19T23:59:55: 
+2026-02-19T23:59:55: ==================================================
+2026-02-19T23:59:55: FACEBOOK MONITORING
+2026-02-19T23:59:55: ==================================================
+2026-02-19T23:59:55: Opening Facebook. Please log in if not already logged in.
+2026-02-19T23:59:55: Once logged in, the watcher will monitor for messages/posts.
+2026-02-19T23:59:57: Facebook logged in successfully!
+2026-02-19T23:59:57: 
+2026-02-19T23:59:57: [23:59:57] Checking Facebook...
+2026-02-20T00:00:05:   Found 0 matching items
+2026-02-20T00:00:05: 
+2026-02-20T00:00:05: ✓ Browser window closed by user.
+2026-02-20T00:00:05: Stopping watcher gracefully...
+2026-02-20T00:04:13: 
+2026-02-20T00:04:13: Starting Facebook Watcher...
+2026-02-20T00:04:13: Close the browser window to stop the watcher.
+2026-02-20T00:04:15: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-20T00:04:15: INFO: Close the browser window to stop the watcher
+2026-02-20T00:04:16: 
+2026-02-20T00:04:16: ==================================================
+2026-02-20T00:04:16: FACEBOOK MONITORING
+2026-02-20T00:04:16: ==================================================
+2026-02-20T00:04:16: 
+2026-02-20T00:04:16: Once logged in, the watcher will monitor for messages/posts.
+2026-02-20T00:04:16: Facebook logged in successfully!
+2026-02-20T00:04:16: 
+2026-02-20T00:04:16: [00:04:16] Checking Facebook...
+2026-02-20T00:04:24:   Found 0 matching items
+2026-02-20T00:04:24: 
+2026-02-20T00:04:24: ✓ Browser window closed by user.
+2026-02-20T00:04:24: Stopping watcher gracefully...
+2026-02-20T00:04:24: Error during monitoring: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-20T00:04:24: 
+2026-02-20T00:04:24: ✓ Browser window closed by user.
+2026-02-20T00:04:24: Stopping watcher gracefully...
+2026-02-20T00:04:29: 
+2026-02-20T00:04:29: Starting Facebook Watcher...
+2026-02-20T00:04:29: Close the browser window to stop the watcher.
+2026-02-20T00:04:30: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-20T00:04:30: INFO: Close the browser window to stop the watcher
+2026-02-20T00:04:31: 
+2026-02-20T00:04:31: ==================================================
+2026-02-20T00:04:31: FACEBOOK MONITORING
+2026-02-20T00:04:31: ==================================================
+2026-02-20T00:04:31: Opening Facebook. Please log in if not already logged in.
+2026-02-20T00:04:31: Once logged in, the watcher will monitor for messages/posts.
+2026-02-20T00:04:32: Facebook logged in successfully!
+2026-02-20T00:04:32: 
+2026-02-20T00:04:32: [00:04:32] Checking Facebook...
+2026-02-20T00:04:40:   Found 0 matching items
+2026-02-20T00:09:49: 
+2026-02-20T00:09:49: 
+2026-02-20T00:09:49: Close the browser window to stop the watcher.
+2026-02-20T00:09:49: 
+2026-02-20T00:09:51: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-20T00:09:51: INFO: Close the browser window to stop the watcher
+2026-02-20T00:09:51: INFO: Or press Ctrl+C to stop
+2026-02-20T00:09:52: 
+2026-02-20T00:09:52: ==================================================
+2026-02-20T00:09:52: FACEBOOK MONITORING
+2026-02-20T00:09:52: ==================================================
+2026-02-20T00:09:52: Opening Facebook. Please log in if not already logged in.
+2026-02-20T00:09:52: Once logged in, the watcher will monitor for messages/posts.
+2026-02-20T00:09:53: Facebook logged in successfully!
+2026-02-20T00:09:53: 
+2026-02-20T00:09:53: [00:09:53] Checking Facebook...
+2026-02-20T00:09:57: Error checking Facebook messages: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-02-20T00:09:57: Error checking Facebook posts: Page.goto: Target page, context or browser has been closed
+2026-02-20T00:09:57:   Found 0 matching items
+2026-02-20T00:09:57: 
+2026-02-20T00:09:57: ✓ Browser window closed by user.
+2026-02-20T00:09:57: Stopping watcher gracefully...
+2026-02-20T00:10:02: 
+2026-02-20T00:10:02: Starting Facebook Watcher...
+2026-02-20T00:10:02: Close the browser window to stop the watcher.
+2026-02-20T00:10:04: Using Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-02-20T00:10:04: INFO: Close the browser window to stop the watcher
+2026-02-20T00:10:04: INFO: Or press Ctrl+C to stop
+2026-02-20T00:10:05: 
+2026-02-20T00:10:05: ==================================================
+2026-02-20T00:10:05: FACEBOOK MONITORING
+2026-02-20T00:10:05: ==================================================
+2026-02-20T00:10:05: Opening Facebook. Please log in if not already logged in.
+2026-02-20T00:10:05: Once logged in, the watcher will monitor for messages/posts.
+2026-02-20T00:10:06: Facebook logged in successfully!
+2026-02-20T00:10:06: 
+2026-02-20T00:10:06: [00:10:06] Checking Facebook...

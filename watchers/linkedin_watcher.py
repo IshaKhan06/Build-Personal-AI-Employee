@@ -1,15 +1,39 @@
+"""
+LinkedIn Watcher (Gold Tier - Error Recovery)
+Monitors LinkedIn for notifications and messages
+Saves detected items as .md files in /Needs_Action
+Checks every 60 seconds
+Features: Exponential backoff retry, error logging, graceful degradation
+"""
+
 import os
 import time
 import asyncio
 from datetime import datetime
 import re
+import sys
 from playwright.async_api import async_playwright
+
+# Add parent directory to path for utils import
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(__file__)), 'utils'))
+from error_recovery import ErrorRecovery
 
 
 class LinkedInWatcher:
     def __init__(self):
         self.session_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'session', 'linkedin')
         os.makedirs(self.session_path, exist_ok=True)
+        
+        # Initialize error recovery utility
+        self.base_dir = os.path.dirname(os.path.dirname(__file__))
+        self.error_recovery = ErrorRecovery(self.base_dir)
+        self.component_name = "linkedin_watcher"
+        
+        # Retry configuration
+        self.max_retries = 3
+        self.base_delay = 1  # seconds
+        self.max_delay = 60  # seconds
+        
         self.playwright = None
         self.browser = None
         self.page = None
@@ -179,36 +203,80 @@ status: pending
             f.write(content)
         
         print(f"Saved LinkedIn {item_data['type']} to {filepath}")
-    
+
+    async def retry_with_backoff(self, func, *args, max_retries=None, base_delay=None, **kwargs):
+        """Execute function with exponential backoff retry."""
+        if max_retries is None:
+            max_retries = self.max_retries
+        if base_delay is None:
+            base_delay = self.base_delay
+        
+        last_error = None
+        
+        for attempt in range(max_retries + 1):
+            try:
+                return await func(*args, **kwargs)
+            except Exception as e:
+                last_error = e
+                
+                if attempt < max_retries:
+                    delay = base_delay * (2 ** attempt)
+                    delay = min(delay, self.max_delay)
+                    print(f"  Retry {attempt + 1}/{max_retries} after {delay:.1f}s: {type(e).__name__}")
+                    self.error_recovery.log_error(self.component_name, e, {'function': func.__name__, 'attempt': attempt + 1})
+                    await asyncio.sleep(delay)
+                else:
+                    print(f"  Max retries ({max_retries}) exceeded for {func.__name__}")
+                    self.error_recovery.log_error(self.component_name, e, {'function': func.__name__, 'final': True})
+        
+        return None
+
     async def run(self):
         """Main loop to monitor LinkedIn"""
         print("Starting LinkedIn Watcher...")
-        
+        print(f"Error recovery: Max retries={self.max_retries}, Backoff=1-60s")
+
         try:
             await self.setup_browser()
             await self.login_linkedin()
-            
+
             while True:
                 try:
-                    matching_items = await self.check_messages_and_notifications()
-                    
-                    for item in matching_items:
-                        self.save_item_to_markdown(item)
-                    
-                    print(f"Checked LinkedIn, found {len(matching_items)} matching items")
-                    
+                    # Use retry with backoff
+                    matching_items = await self.retry_with_backoff(self.check_messages_and_notifications)
+
+                    if matching_items:
+                        for item in matching_items:
+                            try:
+                                self.save_item_to_markdown(item)
+                            except Exception as e:
+                                print(f"  Error saving item: {e}")
+                                self.error_recovery.log_error(
+                                    self.component_name, e,
+                                    {'operation': 'save_item_to_markdown', 'type': item.get('type', 'unknown')}
+                                )
+                                continue
+                    else:
+                        print("  Skipped check (API error)")
+
+                    print(f"Checked LinkedIn, found {len(matching_items) if matching_items else 0} matching items")
+
                     # Wait 60 seconds before next check
                     await self.page.wait_for_timeout(60000)
+
+                except Exception as e:
+                    error_msg = f"Error in LinkedIn Watcher: {type(e).__name__}: {e}"
+                    print(error_msg)
+                    self.error_recovery.log_error(self.component_name, e, {'stage': 'monitoring_loop'})
+                    # Graceful: wait before retrying
+                    await self.page.wait_for_timeout(60000)
                     
-                except:
-                    # Silently ignore errors during monitoring
-                    await self.page.wait_for_timeout(60000)  # Wait before retrying
-        except KeyboardInterrupt:
-            pass  # Handled by signal handler
-        except:
-            pass  # Silently ignore all other errors
+        except Exception as e:
+            error_msg = f"LinkedIn Watcher fatal error: {type(e).__name__}: {e}"
+            print(error_msg)
+            self.error_recovery.log_error(self.component_name, e, {'stage': 'fatal'})
+            raise
         finally:
-            # Cleanup
             await self.cleanup()
 
 

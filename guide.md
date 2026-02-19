@@ -1,17 +1,19 @@
-# Silver Tier System Guide
+# Silver/Gold Tier System Guide
 
-This guide explains how to run and monitor all components of the Silver Tier system in real-time.
+This guide explains how to run and monitor all components of the Silver and Gold Tier systems in real-time.
 
 ## Table of Contents
 1. [System Overview](#system-overview)
 2. [Setting Up Watchers](#setting-up-watchers)
-3. [Running the Reasoning Loop](#running-the-reasoning-loop)
-4. [Running the HITL Approval Handler](#running-the-hitl-approval-handler)
-5. [Running the Email MCP Server](#running-the-email-mcp-server)
-6. [Real-Time Monitoring Process](#real-time-monitoring-process)
-7. [Testing Individual Components](#testing-individual-components)
-8. [Monitoring Logs](#monitoring-logs)
-9. [Running the Scheduler](#running-the-scheduler)
+3. [Gold Tier: Facebook/Instagram Watcher](#gold-tier-facebookinstagram-watcher)
+4. [Gold Tier: Twitter (X) Watcher](#gold-tier-twitter-x-watcher)
+5. [Running the Reasoning Loop](#running-the-reasoning-loop)
+6. [Running the HITL Approval Handler](#running-the-hitl-approval-handler)
+7. [Running the Email MCP Server](#running-the-email-mcp-server)
+8. [Real-Time Monitoring Process](#real-time-monitoring-process)
+9. [Testing Individual Components](#testing-individual-components)
+10. [Monitoring Logs](#monitoring-logs)
+11. [Running the Scheduler](#running-the-scheduler)
 
 ## System Overview
 
@@ -123,6 +125,289 @@ Before running the system, install the required dependencies:
    Note: You'll need to manually log in to LinkedIn in the browser window when prompted.
    
    **To stop the watcher**: Press `Ctrl+C` and you should see "LinkedIn Watcher stopped by user".
+
+## Gold Tier: Facebook/Instagram Watcher
+
+### Overview
+The Gold Tier adds social media monitoring for Facebook and Instagram with automated summary generation:
+
+- **Facebook/Instagram Watcher**: Monitors messages and posts for keywords (sales, client, project)
+- **Social Summary Generator**: Generates summaries and drafts responses for HITL approval
+
+### Prerequisites
+```bash
+# Install Playwright
+pip install playwright
+
+# Install browser
+playwright install chromium
+```
+
+### Running with PM2 (Recommended)
+
+```bash
+# Install PM2 globally
+npm install -g pm2
+
+# Start Facebook Watcher
+pm2 start ecosystem.config.js --only facebook_instagram_watcher
+
+# Start Instagram Watcher  
+pm2 start ecosystem.config.js --only instagram_watcher
+
+# View status
+pm2 status
+
+# View logs
+pm2 logs facebook_instagram_watcher
+pm2 logs instagram_watcher
+
+# Stop watchers
+pm2 stop facebook_instagram_watcher
+pm2 stop instagram_watcher
+```
+
+### Running Directly
+
+```bash
+# Facebook only
+python watchers\facebook_instagram_watcher.py facebook
+
+# Instagram only
+python watchers\facebook_instagram_watcher.py instagram
+
+# Both platforms (sequential)
+python watchers\facebook_instagram_watcher.py both
+```
+
+**To Stop:** Close the browser window or press `Ctrl+C`.
+
+### Running the Social Summary Generator
+
+```bash
+# Manual execution
+python skills\social_summary_generator\social_summary_generator.py
+
+# With PM2 (run periodically)
+pm2 start ecosystem.config.js --only social_summary_generator
+```
+
+### Testing Guide
+
+**Test 1: Send a Test Facebook Message**
+
+1. Start the Facebook Watcher:
+   ```bash
+   pm2 start ecosystem.config.js --only facebook_instagram_watcher
+   ```
+
+2. Send a test message on Facebook Messenger containing keywords:
+   ```
+   Hi! I'm interested in your sales services. Can you help with my project?
+   ```
+
+3. Wait for detection (checks every 60 seconds):
+   ```bash
+   pm2 logs facebook_instagram_watcher
+   ```
+
+4. Verify file created:
+   ```bash
+   dir Needs_Action\facebook_*.md
+   ```
+
+5. Run Social Summary Generator:
+   ```bash
+   python skills\social_summary_generator\social_summary_generator.py
+   ```
+
+6. Check outputs:
+   - Draft in `/Pending_Approval/facebook_draft_*.md`
+   - Log in `/Logs/social_summary_*.md`
+
+**Test 2: Create Manual Test File**
+
+```bash
+echo ---
+type: facebook_message
+platform: facebook
+from: "Test Client"
+subject: "Facebook Message - sales keyword found"
+received: "2026-02-19T10:00:00"
+priority: high
+status: pending
+keyword: sales
+---
+
+# Facebook Message Alert
+
+## Summary
+New sales-related message from Test Client on Facebook.
+
+## Original Content
+Hi! I'm interested in your sales services for my new project.
+Can you provide pricing information?
+
+## Detection Details
+- **Keyword Found:** sales
+- **Platform:** facebook
+- **Type:** message
+- **Detected At:** 2026-02-19 10:00:00
+" > Needs_Action\facebook_test_sales.md
+```
+
+Then run:
+```bash
+python skills\social_summary_generator\social_summary_generator.py
+```
+
+### Output Files
+
+- **Detected Items:** `/Needs_Action/facebook_*.md` or `/Needs_Action/instagram_*.md`
+- **Generated Drafts:** `/Pending_Approval/facebook_draft_*.md`
+- **Activity Logs:** `/Logs/social_summary_*.md`
+
+### Keywords Detected
+- **sales** - Sales inquiries, purchase requests (high priority)
+- **client** - Client communications, support requests (medium priority)
+- **project** - Project opportunities, collaborations (medium priority)
+
+---
+
+## Gold Tier: Twitter (X) Watcher
+
+### Overview
+The Gold Tier adds Twitter monitoring for DMs, mentions, and notifications with automated tweet response generation:
+
+- **Twitter Watcher**: Monitors DMs, tweets, and notifications for keywords (sales, client, project)
+- **Twitter Post Generator**: Generates summaries and drafts tweet responses for HITL approval
+
+### Prerequisites
+```bash
+# Install Playwright
+pip install playwright
+
+# Install browser
+playwright install chromium
+```
+
+### Running with PM2 (Recommended)
+
+```bash
+# Start Twitter Watcher
+pm2 start ecosystem.config.js --only twitter_watcher
+
+# View status
+pm2 status
+
+# View logs
+pm2 logs twitter_watcher
+
+# Stop watcher
+pm2 stop twitter_watcher
+```
+
+### Running Directly
+
+```bash
+# Twitter watcher
+python watchers\twitter_watcher.py
+
+# Twitter Post Generator (manual)
+python skills\twitter_post_generator\twitter_post_generator.py
+```
+
+**To Stop:** Close the browser window or press `Ctrl+C`.
+
+### Testing Guide
+
+**Test 1: Send a Test Twitter DM**
+
+1. Start the Twitter Watcher:
+   ```bash
+   pm2 start ecosystem.config.js --only twitter_watcher
+   ```
+
+2. Send a test DM on Twitter containing keywords:
+   ```
+   Hi! I'm interested in your sales services. Can you help with my project?
+   ```
+
+3. Wait for detection (checks every 60 seconds):
+   ```bash
+   pm2 logs twitter_watcher
+   ```
+
+4. Verify file created:
+   ```bash
+   dir Needs_Action\twitter_*.md
+   ```
+
+5. Run Twitter Post Generator:
+   ```bash
+   python skills\twitter_post_generator\twitter_post_generator.py
+   ```
+
+6. Check outputs:
+   - Draft in `/Pending_Approval/twitter_draft_*.md`
+   - Log in `/Logs/twitter_post_generator_*.md`
+
+**Test 2: Create Manual Test File**
+
+```bash
+echo ---
+type: twitter_dm
+platform: twitter
+from: "Test Client"
+subject: "Twitter DM - sales keyword found"
+received: "2026-02-19T10:00:00"
+priority: high
+status: pending
+keyword: sales
+---
+
+# Twitter DM Alert
+
+## Summary
+New sales-related DM from Test Client on Twitter.
+
+## Original Content
+Hi! I'm interested in your sales services for my new project.
+Can you provide pricing information?
+
+## Detection Details
+- **Keyword Found:** sales
+- **Platform:** twitter
+- **Type:** dm
+- **Detected At:** 2026-02-19 10:00:00
+" > Needs_Action\twitter_test_sales.md
+```
+
+Then run:
+```bash
+python skills\twitter_post_generator\twitter_post_generator.py
+```
+
+### Output Files
+
+- **Detected Items:** `/Needs_Action/twitter_*.md` (DMs, mentions, notifications)
+- **Generated Drafts:** `/Pending_Approval/twitter_draft_*.md`
+- **Activity Logs:** `/Logs/twitter_post_generator_*.md`
+
+### Keywords Detected
+- **sales** - Sales inquiries, purchase requests (high priority)
+- **client** - Client communications, support requests (medium priority)
+- **project** - Project opportunities, collaborations (medium priority)
+
+**Check Interval:** Every 60 seconds
+
+### Tweet Response Features
+- Automatically generated responses based on keyword type
+- Includes emojis and hashtags
+- Character count verification (max 280 characters)
+- HITL approval required before posting
+
+---
 
 ## Running the Reasoning Loop (Ralph Wiggum)
 

@@ -1,0 +1,31 @@
+{
+  "name": "Cross Domain Integrator",
+  "version": "1.0",
+  "tier": "Gold",
+  "description": "Unified personal and business communication integrator",
+  "author": "AI Employee System",
+  "parameters": {
+    "action": {
+      "type": "string",
+      "description": "Action to perform: process, classify, summarize",
+      "default": "process"
+    },
+    "source_folder": {
+      "type": "string",
+      "description": "Source folder to process",
+      "default": "Needs_Action"
+    }
+  },
+  "classification": {
+    "personal_keywords": ["gmail", "whatsapp", "personal", "family", "friend", "invoice", "payment", "urgent", "email", "message"],
+    "business_keywords": ["linkedin", "twitter", "facebook", "sales", "client", "project", "business", "lead", "opportunity", "partnership"]
+  },
+  "routing": {
+    "personal": "Pending_Approval",
+    "business": "Plans"
+  },
+  "output": {
+    "log_folder": "Logs",
+    "log_prefix": "cross_domain_"
+  }
+}

@@ -1,6 +1,6 @@
 #!/bin/bash
-# Ralph Wiggum Loop Runner
-# Usage: ./ralph-loop "Process Needs_Action" --max-iterations 10
+# Ralph Wiggum Loop Runner (Gold Tier)
+# Usage: ./ralph-loop "Process multi-step task in Needs_Action" --max-iterations 20
 
 # Change to the project directory
 cd "$(dirname "$0")/.."
